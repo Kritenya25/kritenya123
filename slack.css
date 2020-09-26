@@ -1,0 +1,383 @@
+#slack-logo{
+    height: 75px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 10vh; 
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 1px;
+}
+#bars{
+    display:none;
+}
+.gs{
+    border-radius: 7px;
+    border: solid ;
+    background-color: #611f69;
+    color: white;
+    width: 135px;
+    height: 52px;
+    font-weight: 700;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 90px;
+}
+#sin{
+  margin-left: 400px;  
+}
+#sin:hover{
+    text-decoration: underline;
+    color: #1264a3;
+}
+.blueunder:hover{
+    text-decoration: none;
+    color: #1264a3;
+}
+.spaniol{
+    color: #1d1d1d;
+    width: 30px;
+}
+.whys{
+    color: #1d1d1d;
+    font-weight: 400;
+    padding: 16px;
+    position:relative;
+}
+.whys ul li:hover{
+ color: #1264a3;
+}
+.whys ul li{
+    color: #1d1d1d;
+}
+.pop{
+    display: none;
+    position:absolute;
+    left:0px;
+    padding:8px;
+    width:200px;
+    background-color:white;
+}
+.whys:hover .pop{
+    display:block;
+}
+.pop ul{
+    list-style-type:none;
+}
+.pop a{
+    text-decoration:none;
+}
+body{
+    background-color:lightgrey;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#bars{
+    margin-right: 15px;
+}
+.pop ul li{
+    padding-top: 9px;
+}
+#s2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6efe8;
+    width: 100%;
+    padding-bottom: 200px;
+}
+#s2 video{
+    width: 50%;
+}
+#s2 div{
+    width: 40%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+#s2 div h1{
+  color: black;
+  font-weight: 600px;
+  font-size: 55px;
+}
+#s2 div h5{
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+a{
+    text-decoration: none;
+}
+.s3{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 200px;
+}
+#btn1{
+    background-color: #611f69;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #611f69;
+    padding: 15px 47px;
+    text-align: center;
+}
+#btn2{
+    background-color: transparent;
+    color: #611f69;
+    border-radius: 3px;
+    border: 1px solid #611f69;
+    padding: 15px 47px;
+    text-align: center;
+}
+#btn2:hover{
+    background-color: transparent;
+    color: #611f69;
+    border-radius: 3px;
+    border: 2px solid #611f69;
+    padding: 15px 47px;
+    text-align: center;
+}
+.s3 video{
+    height: 60vh;
+    width: 40%; 
+    position: absolute;
+    top: -75px;
+    left: 150px;
+}
+.s3 div {
+   width: 37%;
+   margin-right: 75px;
+}
+.s3 div h2{
+    width: 100%;
+    font-weight: 900;
+    color: black;
+    line-height: 1;
+    font-size: 45px; 
+}
+.s3 div h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    width: 80%;
+}
+.s3 div h4{
+    color: #1264a3;
+    font-weight: 100;
+}
+#s4{
+    display: flex;
+    background-color: white;
+}
+#s4 div{
+    width: 33%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+#s4 div h2{
+    color: #1264a3;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 20px;
+}
+.oooooo{
+    display: inline-block;
+    height: 50px;
+}
+#s5 h1{
+    font-weight: 800;
+    color: black;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    font-size: 45px;
+    width: 49%;
+    text-align: center;
+}
+#s5 h5{
+    color: #1264a3;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 16px;
+    margin-left: 700px;
+}
+#s5 h5:hover{
+    color: #1264a3;
+    font-weight: 400;
+    line-height: 1.4;
+    text-decoration: underline;
+}
+.issiissi{
+   width: 40%;
+   margin-left: 35px;
+}
+.abcd{
+    display: flex;
+    align-items: center;
+}
+.abcd div{
+    width: 50%;
+    padding-left: 40px;
+}
+.abcd div h3{
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 1.5;
+}
+#s5{
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pics{
+   justify-content: space-around;
+   display: flex;
+   padding-top: 50px;
+   padding-bottom: 20px;
+}
+.s6 .efgh h4{
+    font-weight: 200;
+    line-height: 1.5;
+}
+.s6 .efgh{
+    padding-left: 100px;
+    width: 50%;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+.s6 img{
+    width: 50%;
+    padding: 100px;
+    box-sizing: border-box;
+}
+.s6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6efe8;
+    flex-wrap: wrap;
+}
+.s6 .efgh h1{
+    font-weight: 800;
+    font-size: 45px;
+}
+#s7{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: white;
+}
+#s7>h1{
+    text-align:center;
+    font-size: 40px;
+}
+#s7>div{
+    display:flex;
+    justify-content:space-around;
+    width: 100%;
+}
+#s7 .card{
+    width:20%;
+    padding:10px;
+    background-color: white;
+    box-shadow: 8px 8px 16px lightgrey;
+    transition: 0.3s;
+}
+#s7 .card:hover{
+  transform: scale(1.1);
+}
+#s7 .card img{
+    width:100%;
+}
+#s7 .card h3{
+    display:flex;
+    justify-content:space-between;
+    color: #1264a3;
+}
+@media screen and (max-width:720px){
+    #bars{
+        display:block;
+    }
+    header div span{
+        display:none;
+    }
+   .gs{
+        display:none;
+    }  
+    .last-div{
+        justify-content:flex-end;
+    } 
+    #s2{
+        flex-direction:column;
+    }
+    #s2 video,#s2 div{
+        width:100%;
+        height:74vh;
+    }
+    #btn1,#btn2{
+        width: 80%;
+        display: block;
+        margin-top: 10px;
+    }
+    .s3 {
+       flex-direction: column-reverse;
+       height: 100vh;
+    }
+    .s3 div{
+        width: 80%;
+    }
+    .s3 video{
+        width: 90%;
+        height: 50vh;
+        top: 350px;
+        left:10px;
+    }
+    #s4{
+        flex-direction: column;
+    }
+    #s4 div {
+        width: 100%;
+    }
+    .abcd{
+        flex-direction: column;
+    }
+    .abcd div{
+        width: 90%;
+    }
+    .pics .oooooo{
+         width: 33%;
+         padding: 0px 20px;
+         box-sizing: border-box;
+    }
+    .pics{
+       flex-wrap: wrap; 
+    }
+    #s5 h1{
+        width: 80%;
+    }
+    .s6 {
+        flex-direction: column;
+    }
+    .s6 img, .s6 .efgh{
+        width: 100%;
+    }
+    #s7>div{
+        flex-direction: column;
+        align-items: center;
+    }
+    #s7 .card{
+        width: 70%;
+        margin-top: 30px;
+    }
+}
